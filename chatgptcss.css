@@ -4,6 +4,21 @@ body {
     margin: 0;
     padding: 0;
   }
+  
+  /* Stil für den Header */
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  header a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #fff;
+  }
+  
   /* Stil für den Haupttitel */
   h1 {
     margin: 0;
@@ -52,42 +67,3 @@ body {
     text-decoration: underline;
   }
   
-  /* Entfernen der Standardeigenschaft für besuchte Links */
-  .list a:visited {
-    color: #007bff; /* Oder die gewünschte Farbe für besuchte Links */
-  }
-  
-  header {
-    background-color: #007BFF ;
-    /* Header background color */
-    width: 100%;
-    /* Full width */
-    padding: 20px;
-    /* Padding for spacing */
-    text-align: center;
-    /* Center the content */
-  }
-
-  header a {
-    text-decoration: none;
-    font-size: 30px;
-    color: #000; /* Ändern der Textfarbe auf Schwarz */
-  }
-
-  .container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #f3efef;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
- /* Center the content */
- .logo img {
-     position: absolute;
-     left: 0;
-     top: 0;
-     margin-right: 15px;
-     height: 200px;
-     
- }

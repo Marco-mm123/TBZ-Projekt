@@ -1,36 +1,47 @@
+/* Globale Stile */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
 h1 {
-    color: rgb(34, 202, 15);
-    font-size: 30px;
-    margin-bottom: 10px;
-  }
+  font-size: 28px;
+  color: #333;
+}
 
-  p {
-    color: rgb(34, 202, 15);
-    font-size: 18px;
-    line-height: 1.6;
-  }
+h2 {
+  font-size: 24px;
+  color: #333;
+}
 
-  a {
-    color: rgb(34, 202, 15);
-  }
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
 
-  h2 {
-    color: rgb(34, 202, 15);
-  }
+a {
+  color:rgb(12, 41, 51);
+  text-decoration: none;
+}
 
-  body {
-    background-color: rgb(3, 21, 24);
-    display: flex;
-    flex-direction: column;
-    /* Change to column to stack header and content */
-    align-items: center;
-    /* Center content horizontally */
-    height: 100vh;
-    margin: 0;
-  }
+a:hover {
+  text-decoration: underline;
+}
+
 
   header {
-    background-color: rgb(12, 41, 51);
+    background-color: #007BFF ;
     /* Header background color */
     width: 100%;
     /* Full width */
@@ -38,12 +49,4 @@ h1 {
     /* Padding for spacing */
     text-align: center;
     /* Center the content */
-  }
-
-  .container {
-    width: 50%;
-  }
-
-  .text {
-    padding: 20px;
   }
