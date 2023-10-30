@@ -91,3 +91,11 @@ body {
      height: 325px;
      
  }
+
+ .back img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-right: 15px;
+  height: 76px;
+ }

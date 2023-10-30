@@ -50,3 +50,10 @@ a:hover {
     text-align: center;
     /* Center the content */
   }
+  .back img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-right: 15px;
+    height: 112px;
+   }
